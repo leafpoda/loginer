@@ -8,9 +8,8 @@ npm install loginer --save
 
 ## Usage
 
-import {dingTalkLogin,wechatLogin} from 'loginer';
-
 ```jsx
+import {dingTalkLogin,wechatLogin} from 'loginer';
 
 // 钉钉登录 参考钉钉官方文档 
 dingTalkLogin({
