@@ -1,6 +1,6 @@
 {
   "name": "loginer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "src/loginer_v2.js",
   "scripts": {
