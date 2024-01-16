@@ -22,7 +22,7 @@ dingTalkLogin({
 
 
 // 微信登录 参考微信官方文档 
-Loginer.wxlogin({
+wechatLogin({
     self_redirect: false,
     id: 'login_container_wechat',
     appid: '',
