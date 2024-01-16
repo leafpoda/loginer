@@ -1,11 +1,18 @@
 {
   "name": "loginer",
-  "version": "2.0.2",
-  "description": "",
-  "main": "src/loginer_v2.js",
+  "version": "2.0.4",
+  "description": "dingtalk and wechat loginer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["dist", "LICENSE", "README.md", "package.json"]
 }
